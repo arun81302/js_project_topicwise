@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Project Hub</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    padding:40px 20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:40px;
+}
+
+.section{
+    margin-bottom:40px;
+}
+
+.section-title{
+    background:#1e293b;
+    color:white;
+    padding:12px 20px;
+    border-radius:10px;
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
+
+.project-card{
+    display:block;
+    text-decoration:none;
+    background:white;
+    color:#333;
+    padding:18px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-5px);
+    background:#2563eb;
+    color:white;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>My Javascript Projects</h1>
+    <p class="subtitle">
+        Collection of all my learning and practice projects
+    </p>
+
+    <!-- DOM SECTION -->
+    <div class="section">
+        <div class="section-title">DOM and Event Projects</div>
+
+        <div class="projects">
+
+            <a href="simple_Event_listener/counter/index.html" target="_blank" class="project-card">
+                Counter App
+            </a>
+
+            <a href="#" target="_blank" class="project-card">
+                Color Changer
+            </a>
+
+            <a href="#" target="_blank" class="project-card">
+                Dynamic List Creator
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- EVENTS SECTION -->
+    <div class="section">
+        <div class="section-title">Event Projects</div>
+
+        <div class="projects">
+
+            <a href="#" target="_blank" class="project-card">
+                Keyboard Event Tracker
+            </a>
+
+            <a href="#" target="_blank" class="project-card">
+                Mouse Position Tracker
+            </a>
+
+            <a href="#" target="_blank" class="project-card">
+                Event Bubbling Demo
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- API SECTION -->
+    <div class="section">
+        <div class="section-title">API Projects</div>
+
+        <div class="projects">
+
+            <a href="#" target="_blank" class="project-card">
+                Weather App
+            </a>
+
+            <a href="#" target="_blank" class="project-card">
+                GitHub User Finder
+            </a>
+
+            <a href="#" target="_blank" class="project-card">
+                Random Joke Generator
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- REACT SECTION -->
+    <div class="section">
+        <div class="section-title">React Projects</div>
+
+        <div class="projects">
+
+            <a href="#" target="_blank" class="project-card">
+                Todo App
+            </a>
+
+            <a href="#" target="_blank" class="project-card">
+                Password Generator
+            </a>
+
+            <a href="#" target="_blank" class="project-card">
+                Currency Converter
+            </a>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
